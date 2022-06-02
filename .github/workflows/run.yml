@@ -27,4 +27,3 @@ jobs:
       run: |
         cf rs ${{ secrets.CFNAME }}
         cf rs ${{ secrets.CFNAME1 }}
-        cf rs ${{ secrets.CFNAME2 }}
